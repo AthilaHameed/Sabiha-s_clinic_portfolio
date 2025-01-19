@@ -1,767 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen - Tuty_Edu</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-    <title>SeawaysHr</title>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
-
-    <!-- TOP NAV -->
-    <div class="top-nav" id="home">
-        <div class="container">
-            <div class="row justify-content-between">
+    <body>
+        <div class="animation01">
+        <div class="line_content line_content01">
+            <div class="line_wrapper line_wrapper01">
+                <div class="line01"></div>
+                <div class="line02"></div>
+            </div>
+        </div>
+        <div class="line_content line_content02">
+            <div class="line_wrapper line_wrapper02">
+                <div class="line02"></div>
+                <div class="line01"></div>
             </div>
         </div>
     </div>
-
-    <!-- BOTTOM NAV -->
-    <nav class="navbar navbar-expand-lg custom_nav-container"
-        style="display: flex; align-items: center; justify-content: space-between; padding: 10px; position: relative; z-index: 10; background: none;">
-        <!-- Logo and Handshake Section -->
-        <div style="display: flex; align-items: center; gap: 20px;">
-            <!-- Tutyedu Logo (Glooft) in a Circle -->
-            <div
-                style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-                <img src="../assets/logoglooft.jpg" alt="Tutyedu Logo"
-                    style="width: 100%; height: 100%; object-fit: cover; animation: grow-shrink 3s ease-in-out infinite;">
-            </div>
-
-            <!-- Handshake Icon -->
-            <i class="fas fa-handshake" style="color: #ff4d29; font-size: 30px; animation: shake 2s infinite;"></i>
-
-            <!-- Glooft Logo (SeawaysHR) in a Circle -->
-            <div
-                style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-                <img src="../assets/seawayshrlogo.png" alt="Glooft Logo"
-                    style="width: 100%; height: 100%; object-fit: cover; animation: grow-shrink 3s ease-in-out infinite;">
-            </div>
-        </div>
-
-        <style>
-            /* Grow and shrink animation for logos */
-
-            
-
-
-            @keyframes grow-shrink {
-                0% {
-                    transform: scale(1);
-                }
-
-                50% {
-                    transform: scale(1.1);
-                }
-
-                100% {
-                    transform: scale(1);
-                }
-            }
-
-            /* Handshake shake animation */
-            @keyframes shake {
-                0% {
-                    transform: rotate(0);
-                }
-
-                25% {
-                    transform: rotate(-10deg);
-                }
-
-                50% {
-                    transform: rotate(10deg);
-                }
-
-                75% {
-                    transform: rotate(-10deg);
-                }
-
-                100% {
-                    transform: rotate(0);
-                }
-            }
-        </style>
-    </nav>
-
-
-    <!-- SLIDER -->
-    <div class="owl-carousel owl-theme hero-slider">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-
-                        <h1 class="display-3 my-4">SeawaysHr'S JOURNEY WITH<br />GLOOFT</h1>
-                        <h6 class="text-white text-uppercase" style="text-align: center; /* Centers the text horizontally */
-                        line-height: 1.5; /* Adjusts the line spacing for better readability */
-                        font-size: 16px; /* Adjusts font size */
-                        margin: 0 auto; /* Centers the block within its container */
-                        max-width: 800px; /* Restricts the width of the paragraph */"><b>Glooft</b> boosted
-                            <b>Seawayshr's</b> digital presence through targeted <b>SEO,</b> content marketing,
-                            and <b>social media</b> strategies, increasing engagement and visibility.
-                        </h6>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
-
-                        <h1 class="display-3 my-4" style=" text-align: center; /* Centers the text horizontally */
-                        white-space: nowrap; /* Prevents the text from breaking into multiple lines */
-                        font-size: 4.5rem; /* Adjusts font size for visibility */
-                        font-weight: bold; /* Ensures the text remains bold */
-                        line-height: 1.2; /* Adjusts line spacing if needed */
-                        margin: 0 auto; /* Centers the text block */
-                        max-width: 100%; /* Ensures the container adapts to full width */">SeawaysHr JOURNEY WITH
-                            <br />GLOOFT
-                        </h1>
-                        <h6 class="text-white text-uppercase" style="text-align: center; /* Centers the text horizontally */
-                        line-height: 1.5; /* Adjusts the line spacing for better readability */
-                        font-size: 16px; /* Adjusts font size */
-                        margin: 0 auto; /* Centers the block within its container */
-                        max-width: 800px; /* Restricts the width of the paragraph */"><b>Glooft</b> boosted
-                            <b>Seawayshr's</b> digital presence through targeted <b>SEO,</b> content marketing,
-                            and <b>social media</b> strategies, increasing engagement and visibility.
-                        </h6>
-
-                    </div>
-                </div>
-            </div>
+    <div class="animation02">
+        <div class="square">
+            <span class="square_item square_item01"></span>
+            <span class="square_item square_item02"></span>
+            <span class="square_item square_item03"></span>
+            <span class="square_item square_item04"></span>
+            <span class="square_item square_item05"></span>
+            <span class="square_item square_item06"></span>
+            <span class="square_item square_item07"></span>
+            <span class="square_item square_item08"></span>
+            <span class="circle_item01"></span>
+            <span class="circle_item02"></span>
+            <span class="circle_item03"></span>
+            <span class="circle_item04"></span>
+            <span class="circle_item05"></span>
+            <span class="circle_item06"></span>
+            <span class="circle_item01_1"></span>
+            <span class="circle_item02_2"></span>
+            <span class="circle_item03_3"></span>
+            <span class="circle_item04_4"></span>
+            <span class="circle_item05_5"></span>
+            <span class="circle_item06_6"></span>
         </div>
     </div>
-
-    <!-- ABOUT -->
-
-    <section id="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5 py-5">
-                    <div class="row">
-                        <div class="col-12 info-box-container">
-                            <div class="info-box">
-                                <img src="img/icon6.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Logo Creation</h5>
-                                    <p> <b>impactful logos</b>
-                                        For <b>SeawaysHR</b>,we crafted a design that not only resonated with the
-                                        <b>brand’s
-                                            ethos</b> but also elevated its presence. Through thoughtful execution,
-                                        <b>Glooft</b>
-                                        brought life to <b>SeawaysHR’s identity.</b>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4 info-box-container">
-                            <div class="info-box">
-                                <img src="img/icon4.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Website Marketing</h5>
-                                    <p><b>Glooft</b> developed a dynamic website with an intuitive admin panel for
-                                        <b>SeawaysHR</b>, enhancing performance and elevating the <b>brand's online
-                                            presence</b> effectively.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4 info-box-container">
-                            <div class="info-box">
-                                <img src="img/icon5.png" alt="">
-                                <div class="ms-4">
-                                    <h5>SEO Strategies
-                                    </h5>
-                                    <p><b>Glooft</b>crafted tailored <b>SEO strategies</b> for <b>SeawaysHR</b>,
-                                        optimizing keywords
-                                        and enhancing site performance to elevate the <b>brand’s online visibility</b>
-                                        and
-                                        strengthen its <b>digital presence.</b>
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 logo-container">
-                    <img class="logo" src="assets/seawayshrlogo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        /* Default styles */
-        .info-box,
-        .logo {
-            opacity: 0;
-            transform: translateY(50px);
-            /* Start below */
-            transition: opacity 0.5s ease, transform 0.5s ease;
-        }
-
-        /* Active styles when animation is triggered */
-        .info-box.active,
-        .logo.active {
-            opacity: 1;
-            transform: translateY(0);
-            /* Move into place */
-        }
-    </style>
-
-    <script>
-        // Trigger animation when the cursor moves into the #about section
-        const aboutSection = document.getElementById('about');
-        const infoBoxes = document.querySelectorAll('.info-box');
-        const logo = document.querySelector('.logo');
-
-        aboutSection.addEventListener('mouseenter', () => {
-            infoBoxes.forEach((box, index) => {
-                setTimeout(() => {
-                    box.classList.add('active');
-                }, index * 300); // Staggered animation for each box
-            });
-
-            // Add a delay for the logo after the last box
-            setTimeout(() => {
-                logo.classList.add('active');
-            }, infoBoxes.length * 300);
-        });
-    </script>
-
-
-
-    <!-- MILESTONE -->
-    <section id="milestone">
-        <div class="container">
-            <div class="row text-center justify-content-center gy-4">
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--service section-->
-
-    <div id="service-section">
-        <div class="container">
-            <div class="theme-title">
-                <h2 style="display: flex; /* Enables flexbox for centering */
-                justify-content: center; /* Centers horizontally */
-                align-items: center; /* Centers vertically */
-                text-align: center; /* Ensures text alignment is centered */
-                height: 100px; /* Adjust height as needed */
-                margin: 0; /* Removes any default margin */
-                color: white; /* Adjust text color */
-              
-                font-size: 2rem; /* Adjust font size */
-                font-weight: bold; /* Ensures bold text */">SERVICES WE PROVIDE</h2>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Consultation</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/Consult.jpg" alt="Consultation">
-
-                            <p>
-                                <b style="color: black;">Glooft</b> provided expert <b
-                                    style="color: black;">consultation services</b> to Seawayshr, offering
-                                tailored strategies to enhance their <b style="color: black;">digital presence.</b>
-                                Through in-depth business analysis and <b style="color: black;">customized
-                                    recommendations,</b> we aligned
-                                their goals with the <b style="color: black;">latest industry trends.</b>
-                            </p>
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Recomendation</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/Recc.jpg" alt="Recommendation">
-                            <p>
-                                <b style="color: black;">Glooft</b> recommended a <b style="color: black;">modern
-                                    digital approach</b> for <b style="color: black;">Seawayshr.</b> We
-                                advised the integration of <b style="color: black;">responsive design</b> and <b
-                                    style="color: black;">user-centric</b> features to
-                                ensure an engaging experience across all devices.
-                                Our recommendations also included targeted <b style="color: black;">SEO strategies</b>
-                                ultimately improving
-                                their <b style="color: black;">market positioning.</b>
-                            </p>
-
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Social Media</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/soc.jpg" alt="SocialMedia">
-                            <p>
-                                <b style="color: black;">Glooft</b> elevated <b style="color: black;">Seawayshr’s</b>
-                                social media presence by implementing a
-                                data-driven content strategy and consistent <b style="color: black;">brand
-                                    messaging.</b><b style="color: black;">content
-                                    creation,</b> we boosted <b style="color: black;">user interaction</b> and increased
-                                brand visibility.
-                                Our tailored <b style="color: black;">social media campaigns</b> in the <b
-                                    style="color: black;">education sector.</b>
-                            </p>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Data Analysis</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/DataAnalysis.jpg" alt="DataAnalysis">
-                            <p>
-                                <b style="color: black;">Glooft</b> harnessed <b style="color: black;">data analysis</b>
-                                to derive actionable insights for
-                                <b style="color: black;">Seawayshr.</b> By analyzing user behavior, website traffic, and
-                                conversion patterns,
-                                we identified areas for improvement and <b style="color: black;">implemented
-                                    strategies</b> to optimize
-                                performance.
-                            </p>
-
-                        </div> 
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Website Marketing</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/Digitalmarketing.jpg" alt="DataAnalysis">
-                            <p>
-                                <b style="color: black;">Glooft</b> revolutionized <b style="color: black;">Seawayshr’s
-                                    digital marketing strategy</b> by focusing on
-                                <b style="color: black;">SEO optimization</b>, social media campaigns, and content
-                                marketing. Our approach
-                                enhanced <b style="color: black;">brand awareness,</b> increased <b
-                                    style="color: black;">sales,</b> and delivered <b style="color: black;"> 3,000
-                                    qualified leads.</b>
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-service-content">
-
-                        <div class="post-img">
-                            <div class="icon-heading tran3s">
-
-                                <h4 class="video_txt">Competitor Analysis</h4>
-                            </div>
-                            <img class="video_inner" src="../assets/com.jpg" alt="Competitor">
-                            <p>
-                                <strong style="color: black;">Seawayshr's Competitor Analysis</strong> with Glooft
-                                unlocked key insights into
-                                the healthcare market. By identifying <strong style="color: black;">strengths,
-                                weaknesses, opportunities, and threats</strong>, we developed a strategy to stand
-                                out, driving engagement and growth.
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="animation03">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
-
-
-    <!--service animation-->
-    <style>
-        /* Default state */
-        .single-service-content {
-            opacity: 0;
-            /* Hidden initially */
-            transform: translateX(100%);
-            /* Start off-screen right */
-            transition: all 1s ease-out;
-            /* Smooth transition */
-        }
-
-        /* Final state after animation */
-        .animate {
-            transform: translateX(0);
-            /* Move to its correct position */
-            opacity: 1;
-            /* Fade in */
-        }
-    </style>
-
-
-
-
-
-
-    <!--service script-->
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const serviceSection = document.getElementById("service-section");
-            const serviceItems = document.querySelectorAll(".single-service-content");
-            const animationDelay = 1000; // 2 seconds delay between animations
-
-            let hasAnimated = false; // Prevent repeated animations
-
-            serviceSection.addEventListener("mouseenter", () => {
-                if (hasAnimated) return; // Prevent re-triggering the animation
-                hasAnimated = true;
-
-                serviceItems.forEach((item, index) => {
-                    setTimeout(() => {
-                        item.classList.add("animate");
-                    }, index * animationDelay); // Add 2-second delay for each element
-                });
-            });
-        });
-    </script>
-
-
-
-
-
-
-    <section class="bg-light" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Work</h6>
-                        <h1>Successful projects</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="projects-slider" class="owl-theme owl-carousel">
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project1.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project2.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project3.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project4.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project5.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="bg-light" id="reviews">
-
-        <div class="owl-theme owl-carousel reviews-slider container">
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_1.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_2.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_3.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Blog</h6>
-                        <h1>Blog Posts</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
-                        <a href="#" class="tag">Web Design</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
-                        <a href="#" class="tag">Programming</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
-                        <a href="#" class="tag">Marketing</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer-top text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <h4 class="navbar-brand">Prixima<span class="dot">.</span></h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                        <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
-                        </div>
-                        <div class="col-auto conditions-section">
-                            <a href="#">privacy</a>
-                            <a href="#">terms</a>
-                            <a href="#">disclaimer</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom text-center">
-            <p class="mb-0">Copyright vicpra 2022. All rights Reserved</p> Distributed By <a
-                hrefs="https://themewagon.com">ThemeWagon</a>
-        </div>
-    </footer>
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-body p-0">
-                    <div class="container-fluid">
-                        <div class="row gy-4">
-                            <div class="col-lg-4 col-sm-12 bg-cover"
-                                style="background-image: url(img/c2.jpg); min-height:300px;">
-                                <div>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <form class="p-lg-5 col-12 row g-3">
-                                    <div>
-                                        <h1>Get in touch</h1>
-                                        <p>Fell free to contact us and we will get back to you as soon as possible</p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <label for="userName" class="form-label">First name</label>
-                                        <input type="text" class="form-control" placeholder="Jon" id="userName"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <label for="userName" class="form-label">Last name</label>
-                                        <input type="text" class="form-control" placeholder="Doe" id="userName"
-                                            aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="userName" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" placeholder="Johndoe@example.com"
-                                            id="userName" aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="exampleInputEmail1" class="form-label">Enter Message</label>
-                                        <textarea name="" placeholder="This is looking great and nice."
-                                            class="form-control" id="" rows="4"></textarea>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-brand">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+    <div class="animation04">
+        <div class="name_plate"></div>
+        <div class="name">SEAWAYS HR</div>
     </div>
-
-
-
-
-
-
-
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
-
+        
+        
+        <script>
+            setTimeout(function() {
+                window.location.href = "seaways-homepage.html"; // Change to your desired URL
+            }, 5000); // 15000 milliseconds = 15 seconds -->
+        </script>
+    </body>
 </html>
